@@ -1207,7 +1207,12 @@ img {
 @media (max-width: 1024px) {
     .about-grid {
         grid-template-columns: 1fr;
-        gap: 48px;
+        gap: 32px;
+    }
+
+    .about-photo-wrapper {
+        position: static;
+        order: -1;
     }
 
     .about-details {
